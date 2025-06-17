@@ -1,6 +1,6 @@
 import ipywidgets as widgets
 from IPython.display import display, clear_output
-from json_to_gro_generator.gro_file_compiler import extract_genes_and_qs_actions, extract_ncb_production_genes_and_actions, extract_biochemical_reactions, normalize_signal_name
+from .gro_file_compiler import extract_genes_and_qs_actions, extract_ncb_production_genes_and_actions, extract_biochemical_reactions, normalize_signal_name
 import numpy as np
 
 def display_form(sbol_data):
